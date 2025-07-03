@@ -5,8 +5,8 @@ from mcp.server.fastmcp import FastMCP
 mcp = FastMCP("Demo-MCP Server")
 
 
-# Adder a new Addition tool
-@mcp.tool("MCP Addition")
+ # Add a new Addition tool
+@mcp.tool("MCPServer_Addition")
 def addition(a: int, b: int) -> int:
     """
     Adds two integers together.
